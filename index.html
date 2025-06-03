@@ -1,25 +1,95 @@
 <!doctype html>
 <html class="no-js" lang="es">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CSS Proyectos XX - Nombre del proyecto</title>
-  <link rel="stylesheet" href="css/style.css">
-  <meta name="description" content="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS Proyectos - Header Architecture</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
 
 
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
-</head>
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#fafafa">
+  </head>
 
-<body>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <img src="./img/logo.svg" alt="">
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Room Tour</a></li>
+        <li><a href="#">New Development</a></li>
+        <li><a href="#">Galleries</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>
+    <main>
+      <div class="hero">
+        <img src="./img/edificio.svg" alt="">
+        <div class="hero__info">
+          <h2>Build the architecture with art and heart.</h2>
+          <p>Not only building an artistic architectural building but also understanding the function and people who will use it</p>
+          <div class="hero__info-buttons">
+            <div class="hero_info-buttons-started">
+              <h4>Get Started</h4>
+              <img src="./img/getStartedArrow.svg" alt="">
+            </div>
+            <div class="hero_info-buttons-learnMore">
+              <h4>Learn More</h4>
+              <img src="./img/learnMoreArrow.svg" alt="">
+            </div>
+        </div>
 
-</body>
+        </div>
+        <div class="hero__data">
+          <div class="hero__data-item">
+            <p>321</p>
+            <span>Projects Completed </span>
+          </div>
+          <div class="hero__data-item">
+            <p>25</p>
+            <span>Awards</span>
+          </div>
+          <div class="hero__data-item">
+            <p>31</p>
+            <span>Experts</span>
+          </div>
+          <div class="hero__data-item">
+            <p>15</p>
+            <span>Years Experience</span>
+          </div>
+        </div>
+        <div class="hero__service">
+          <img src="./img/casa.svg" alt="Ejemplo del servicio de casa">
+          <div class="hero__service-info">
+            <h4>Our Service</h4>
+            <div class="hero__service-info-items">
+              <span>01</span>
+              <h5>Interior Designs</h5>
+              <img src="./img/ServiceArrow.svg" alt="">
+              <span>02</span>
+              <h5>Architecture</h5>
+              <img src="./img/ServiceArrow.svg" alt="">
+              <span>03</span>
+              <h5>Real Estate</h5>
+              <img src="./img/ServiceArrow.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 
 </html>
