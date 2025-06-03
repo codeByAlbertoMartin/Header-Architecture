@@ -6,6 +6,8 @@
     gap:300px;
     align-items: center;
     margin-bottom: 135px;
+    position: relative;
+    z-index:1;
     ul{
         display:flex;
         gap:56px;
