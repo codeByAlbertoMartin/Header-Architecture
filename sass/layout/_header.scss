@@ -1,0 +1,27 @@
+
+@use "../abstracts/mixins" as m;
+
+.header{
+    display: flex;
+    gap:300px;
+    align-items: center;
+    margin-bottom: 135px;
+    ul{
+        display:flex;
+        gap:56px;
+        li{
+            @include m.reset-list();
+            a{
+                text-decoration: none;
+                color: #424241;
+                font-family: Poppins;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 32px; /* 177.778% */
+                opacity: 0.5;
+            }
+        }
+    }
+
+}
